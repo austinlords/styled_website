@@ -1,19 +1,7 @@
-#about-me {
+.section-header {
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
   margin: 1vw;
-}
-
-@@media screen (max-width:680 px) {
-  .small-pic {
-    max-width: 300px;
-    text-align: center;
-  }
-
-}
-
-nav {
-  color: white;
 }
