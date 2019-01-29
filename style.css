@@ -5,3 +5,7 @@
   color: white;
   margin: 1vw;
 }
+
+.carousel-item > img {
+  height: 300px;
+}

@@ -41,7 +41,7 @@
           </div>
           <div class="col-lg-10 col-md-9 col-sm-12">
             <p class="m-1">
-              Hello World! I am a 24 year old aspiring software engineer. I was drawn to the world of programming because I love to solve problems. Some of my interests include mountain biking, watching the NBA (go Blazers!) and listening to podcasts. I created this page to display some of my projects. You can <a href="contact">contact me</a> by using the form below. Thanks for stopping by!
+              Hello World! I am a 24 year old aspiring software engineer. I was drawn to the world of programming because I love to solve problems. Some of my interests include mountain biking, watching the NBA (go Blazers!) and listening to podcasts. I created this page to display some of my projects. You can <a href="#contact">contact me</a> by using the form below. Thanks for stopping by!
             </p>
           </div>
         </div>
@@ -79,10 +79,36 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-
-        <div class="row">
-          <div>
+        <!-- Contact Me section -->
+        <div class="row" id="contact">
+          <div class="col m-1 bg-secondary mt-4">
+            <h2 class="m-1 section-header">Contact Me</h2>
           </div>
+        </div>
+          <!-- Contact Form -->
+        <div class="row">
+          <div class="form-group col-sm-6">
+              <label for="name" class="h4">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+          </div>
+          <div class="form-group col-sm-6">
+              <label for="email" class="h4">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <label for="message" class="h4 ">Message</label>
+            <textarea id="message" class="form-control" rows="5" cols="100" placeholder="Enter your message" required></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+          </div>
+        </div>
+        <div class="row">
+          <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
         </div>
       </div>
     </body>
